@@ -12,8 +12,6 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import seaborn as sns
 sns.set(style="white", color_codes=True)
-import warnings
-warnings.filterwarnings("ignore")
 desired_width=320
 pd.set_option('display.width', desired_width)
 #np.set_printoption(linewidth=desired_width)
